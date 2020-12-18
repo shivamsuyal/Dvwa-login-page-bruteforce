@@ -6,11 +6,13 @@ class Error(Exception):
 class found(Error):
     pass
 
-m1=re.compile(r"<input type='hidden' name='user_token' value='.+' />")
+#You have to create your own user.txt and password.txt file 
 
-url='http://192.168.43.116/dvwa/login.php'
-user='user.txt'
-password='password.txt'
+url='http://192.168.43.116/dvwa/login.php' #Enter correct ip address
+user='user.txt' # This is the path of file containing the list of possible usernames
+password='password.txt' # This is the path of file containing the list of possible password
+
+m1=re.compile(r"<input type='hidden' name='user_token' value='.+' />")
 
 try:
     u1=open('user.txt','r').readlines()
