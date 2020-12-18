@@ -7,8 +7,11 @@ git clone https://github.com/shivamsuyal/Dvwa-login-page-bruteforce
 
 cd Dvwa-login-page-bruteforce
 
-edit Brute_force(DVWA).py file accordingly
-
 python3 Brute_force(DVWA).py
 
 And the just wait and enjoy...
+
+<---------------------->
+
+Also edit Brute_force(DVWA).py file accordingly
+
